@@ -11,9 +11,10 @@ function Navbarr() {
         <Nav className='me-auto'>
           <Nav.Link href='login'>Login</Nav.Link>
           <Nav.Link href='link'>Link</Nav.Link>
-          <NavDropdown title="Sex">
+          <NavDropdown title="lex">
             <NavDropdown.Item>Male</NavDropdown.Item>
             <NavDropdown.Item>Female</NavDropdown.Item>
+            <NavDropdown.Item>Third</NavDropdown.Item>
           </NavDropdown>
         </Nav>
        
