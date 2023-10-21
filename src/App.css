@@ -95,8 +95,9 @@ background-color: white;
 }
 @media (min-width: 347px){
   .form{
-    font-size: x-small;
+    font-size: small;
     margin-left: 0%;
+    margin-right: 0%;
     padding-left: 5%;
     width: 350px;
   
