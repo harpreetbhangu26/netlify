@@ -93,11 +93,28 @@ background-color: white;
     background-color:#426cf5;
   }
 }
-@media  screen and (max-width: 600px) {
-  body {
-    .form{
-      margin-left: 10%;
-      margin-bottom: 10%;
-    }
+@media (min-width: 300px){
+  .form{
+    font-size: x-small;
+    margin-left: 0%;
+    padding-left: 5%;
+  
+  }
+}
+@media (min-width: 400px){
+  .form{
+    font-size: x-small;
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+}
+@media (min-width:600px){
+  .form{
+    font-size: small;
+  }
+}
+@media (min-width:800px){
+  .form{
+    font-size: medium;
   }
 }
