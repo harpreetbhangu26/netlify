@@ -119,8 +119,10 @@ background-color: white;
     font-size: small;
   }
 }
-@media (min-width:800px){
+@media (min-width:885px){
   .form{
     font-size: medium;
+    margin-left: 25%;
+    width: 490px;
   }
 }
