@@ -98,7 +98,12 @@ background-color: white;
     font-size: x-small;
     margin-left: 0%;
     padding-left: 5%;
+    width: 350px;
   
+  }
+  .main{
+    height: 100px;
+    width: 100%;
   }
 }
 @media (min-width: 400px){
