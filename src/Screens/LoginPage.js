@@ -11,10 +11,7 @@ function LoginPage() {
             <Form.Label>Login Here</Form.Label>
           </div>
           <div className="link">
-            <Link style={{ color: "white", textDecoration: "none" }} to="/">
-              {" "}
-              Home
-            </Link>
+            <Link to='/home' style={{color:'white', textDecoration:'none'}}>Home</Link>
           </div>
         </div>
 
