@@ -3,7 +3,8 @@ import { Navbar,Nav,Container,NavDropdown } from 'react-bootstrap'
 
 function Navbarr() {
   return (
-    <Navbar expand='lg' className='bg-body-tertiary'>
+    
+    <Navbar  expand='lg' className='bg-body-tertiary'>
       <Container>
         <Navbar.Brand >Harpreet Bhangu</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -20,6 +21,7 @@ function Navbarr() {
        
       </Container>
     </Navbar>
+    
   )
 }
 

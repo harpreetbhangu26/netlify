@@ -93,6 +93,8 @@ background-color: white;
     background-color:#426cf5;
   }
 }
+
+
 @media (min-width: 347px){
   .form{
     font-size: small;
@@ -125,4 +127,7 @@ background-color: white;
     margin-left: 25%;
     width: 490px;
   }
+}
+@media (min-width:347px){
+  width: 100%;
 }

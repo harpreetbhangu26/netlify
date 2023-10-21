@@ -10,15 +10,15 @@ function Carosal() {
 
   return (
     <div>
-     <Carousel activeIndex={index} onSelect={handleSelect} interval={800}>
+     <Carousel className='caro' activeIndex={index} onSelect={handleSelect} interval={800}>
       <Carousel.Item >
-      <img src='sondeep.jpg'  style={{width:'50%'}} alt='first' />
+      <img src='sondeep.jpg'  style={{width:'70%'}} alt='first' />
       <Carousel.Caption>
         Pizza
       </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src='brothers.jpg' style={{width:'50%'}} alt='second'/>
+        <img src='brothers.jpg' style={{width:'70%'}} alt='second'/>
       </Carousel.Item>
       <Carousel.Caption>
         Dog
